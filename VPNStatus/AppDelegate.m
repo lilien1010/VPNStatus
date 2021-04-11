@@ -233,10 +233,10 @@
 	}
 	
 	// Other menu items
-	[menu addItem:[[NSMenuItem alloc] initWithTitle:@"About VPNStatus" action:@selector(doAbout:) keyEquivalent:@""]];
+	[menu addItem:[[NSMenuItem alloc] initWithTitle:@"About VPN Auto Re-Connect" action:@selector(doAbout:) keyEquivalent:@""]];
 	[menu addItem:[[NSMenuItem alloc] initWithTitle:@"Website…" action:@selector(openWebsite:) keyEquivalent:@""]];
 	[menu addItem:[NSMenuItem separatorItem]];
-	[menu addItem:[[NSMenuItem alloc] initWithTitle:@"Quit VPNStatus" action:@selector(doQuit:) keyEquivalent:@"q"]];
+	[menu addItem:[[NSMenuItem alloc] initWithTitle:@"Quit VPN Auto Re-Connect" action:@selector(doQuit:) keyEquivalent:@"q"]];
 	
 	self.statusItem.menu = menu;
 	[self updateStatusItemIcon];
@@ -277,7 +277,7 @@
 
 -(IBAction)openWebsite:(id)sender
 {
-	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://blog.timac.org"]];
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://blog.hellotalk.org"]];
 }
 
 -(IBAction)doQuit:(id)sender
