@@ -187,7 +187,7 @@
 
 -(IBAction)openWebsite:(id)sender
 {
-	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://blog.timac.org"]];
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://blog.hellotalk.org"]];
 }
 
 @end
